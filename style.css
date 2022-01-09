@@ -1,0 +1,378 @@
+/* R E S E T  GERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+.container {
+    display: flex;
+}
+
+.body {
+    background-color: black;
+
+    background-image: url(justiceiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body2 {
+    background-color: black;
+}
+
+/* HEADER*/
+.header{
+    height: 120px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+/* MATÉRIAS */
+.blcmaterias {
+    height: 566px;
+    width: 267px;
+
+    margin-top: -46px;
+
+    background-color: black;
+}
+
+.h2materias, .titulos {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.titulos {
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.pmaterias {
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+/* DIAS */
+.blcdias {
+    height:566px;
+    width: 100%;
+}
+
+.dias{
+    display: flex;
+    margin-top: 190px;
+}
+
+.seg{
+    height: 95px;
+    width: 108px;
+
+    margin-left: 135px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+}
+.seg:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.ter{
+    height: 95px;
+    width: 108px;
+
+    margin-left: 10px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+
+   
+}
+.ter:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.quar{
+    height: 95px;
+    width: 108px;
+
+    margin-left: 10px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+
+
+}
+.quar:hover{
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.quin{
+    height: 95px;
+    width: 108px;
+
+    margin-left: 10px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+    
+    
+}
+.quin:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.sex{
+    height: 95px;
+    width: 108px;
+
+    margin-left: 10px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+
+   
+}
+.sex:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.sab {
+    height: 95px;
+    width: 108px;
+
+    margin-left: 10px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+
+   
+}
+.sab:hover{
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.domin {
+    height: 95px;
+    width: 108px;
+
+    margin-left: 10px;
+
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    border-radius: 36px;
+
+   
+}
+.domin:hover{
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+
+
+.ndentros {
+    margin-top: 15px;
+    text-align: center;
+
+    font-size: 63px;
+}
+
+.buttons{
+    margin-top: 210px;
+    margin-left: 156px;
+    
+}
+
+button {
+    padding: 6px 45px 6px 45px;
+    margin-left: 27px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    color: white;
+    background-color: rgba(20, 20, 20, 1);
+    border: none;
+
+    cursor: pointer;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+button:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.buttonadc {
+    padding: 10px 45px 10px 45px;
+    margin-left: 0px;
+
+
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid white;
+
+    color: white;
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.buttonadc:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.buttonsave {
+    padding: 10px 45px 10px 45px;
+    margin-top: 40px;
+    margin-left: 330px;
+
+    border: 1px solid white;
+
+
+    color: white;
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.buttonloading {
+    padding: 10px 45px 10px 45px;
+    margin-left: 0px;
+    margin-top: 40px;
+
+    border: 1px solid white;
+    border-radius: -8px;
+    color: white;
+    background-color: rgba(20, 20, 20, 1);
+
+    cursor: pointer;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.inputtarefa {
+    width: 240px;
+
+    margin-top: 20px;
+    margin-left: 130px;
+
+    padding: 10px 10px 10px 10px;
+    outline: none;
+
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid white;
+
+    color: white;
+    background-color: rgba(20, 20, 20, 1);
+    
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform:lowercase ;
+}
+
+/* STYLE DOS SCRIPTS */
+.primeiradiv {
+    margin-left: 130px;
+    margin-top: -80px;
+}
+
+.h2divnova {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+
+    text-align: center;
+    letter-spacing: 6px;
+
+    margin-left: -195px;
+}
+
+.segundadiv {
+    height: 400px;
+    width: 700px;
+    border: 1px solid white;
+    overflow-y: auto;
+}
+
+.psegundadiv {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.li {
+    list-style: none;
+    width: 610px;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
+    padding: 10px 5px 10px 5px;
+    font-size: 26px;
+   
+    background-color: white;
+    border-radius: 40px;
+
+    cursor: pointer;
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.close {
+    display: inline-block;
+   padding: 10px 16px;
+   
+   text-align: end;
+
+   border-radius: 64%;
+
+   background-color: black;
+   color: white;
+}

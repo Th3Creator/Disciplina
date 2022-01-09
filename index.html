@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organisation</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script:wght@500&family=Zen+Kaku+Gothic+New:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a88a8698f.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="h1">Disciplina</h1>
+    </header>
+
+    <div class="container">
+        <div class="blcmaterias">
+            <div>
+                <h3 class="titulos">Segunda</h3>
+                <p class="pmaterias">Fundamentos de Geometria Analítica<br>Fundamentos de Cálculo</p>
+
+                <h3 class="titulos">Terça</h3>
+                <p class="pmaterias">Fundamentos de S.I<br>Programação de Computadores</p>
+
+                <h3 class="titulos">Quarta</h3>
+                <p class="pmaterias">Informática e Sociedade<br>Fundamentos de Geometria Analítica</p>
+
+                <h3 class="titulos">Quinta</h3>
+                <p class="pmaterias">Fundamentos de Cálculo<br>Metodologia de Pesquisa<br></p>
+
+                <h3 class="titulos">Sexta</h3>
+                <p class="pmaterias">Fundamentos de S.I<br>Programação de Computadores</p>
+
+            </div>
+        </div>
+
+
+        <div class="blcdias">
+            <div class="localizacao"></div>
+            <div class="dias">
+                    <div class="seg">
+                        <div>
+                        <p class="ndentros" onclick="pnHojes()">10</p>
+                        </div>
+                    </div>
+                    <div class="ter">
+                        <p class="ndentros" onclick="pnHojest()">11</p>
+                    </div>
+                    <div class="quar">
+                        <p class="ndentros" onclick="pnHojesqua()">12</p>
+                    </div>
+                    <div class="quin">
+                        <p class="ndentros" onclick="pnHojesqui()">13</p>
+                    </div>
+                    <div class="sex">
+                        <p class="ndentros" onclick="pnHojessex()">14</p>
+                    </div>
+                    <div class="sab">
+                        <p class="ndentros" onclick="pnHojessab()">15</p>
+                    </div>
+                    <div class="domin">
+                        <p class="ndentros" onclick="pnHojesdomin()">16</p>
+                    </div>
+            </div>
+
+            <!--
+
+            <input type="text" name="task" id="task" class="inputtarefa" placeholder="Tarefa...">
+           <button class="buttonadc" onclick="addText()">Adicionar</button>
+            
+            -->
+            
+            <div class="buttons">
+                <button onclick="pnMaterias()">Matérias</button>
+                <button onclick="pnPendentes()">Pendente</button>
+                <button onclick="pnDatas()">Datas</button>
+                <button onclick="pnUrgente()">Urgente</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
