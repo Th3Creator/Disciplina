@@ -1162,7 +1162,5 @@ function pnUrgente () {
 
 /* 
  Botão que limpa o cache 
- Salvar e relogar o site 
  Toltip do viadinho 
-
 */
