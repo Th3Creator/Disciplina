@@ -91,6 +91,7 @@ function pnHojes () {
           textli.push(api);
         }       
        localStorage.setItem("TarefaSeg", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -203,6 +204,7 @@ function pnHojest () {
           textli.push(api);
         }       
        localStorage.setItem("TarefaTer", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -315,6 +317,7 @@ function pnHojesqua () {
           textli.push(api);
         }       
        localStorage.setItem("TarefaQua", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -427,6 +430,7 @@ function pnHojesqui () {
           textli.push(api);
         }       
        localStorage.setItem("TarefaQuint", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -539,6 +543,7 @@ function pnHojessex () {
           textli.push(api);
         }       
        localStorage.setItem("TarefaSex", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -651,6 +656,7 @@ function pnHojessab () {
           textli.push(api);
         }       
        localStorage.setItem("TarefaSab", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -763,6 +769,7 @@ function pnHojesdomin () {
           textli.push(api);
         }       
        localStorage.setItem("Data", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -906,6 +913,7 @@ function pnPendentes () {
           textli.push(api);
         }       
        localStorage.setItem("Pendentes", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -1018,6 +1026,7 @@ function pnDatas () {
           textli.push(api);
         }       
        localStorage.setItem("Data", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -1130,6 +1139,7 @@ function pnUrgente () {
           textli.push(api);
         }       
        localStorage.setItem("Urgente", JSON.stringify(textli));
+       document.location.reload(true);
     })
 
     buttoncreateloading.addEventListener('click', function(){
@@ -1151,6 +1161,8 @@ function pnUrgente () {
 
 
 /* 
-Fururamente colocar um botão de excluir o salvamento anterior, basicamente vai sobrescrever a salvação atual por cima da anterior, tendeu?
-fazer esse botão com essa função e colocar ao lado do carregar ou até mesmo aplicar no próprio salvar, SIMBORA!!!
+ Botão que limpa o cache 
+ Salvar e relogar o site 
+ Toltip do viadinho 
+
 */
